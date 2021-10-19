@@ -1,0 +1,12 @@
+package br.com.zenGroup.resource;
+
+import javax.ws.rs.Path;
+
+@Path("/teste")
+public class TesteResource {
+	
+	public String ola() {
+		return "Olá Mundo!";
+	}
+	
+}

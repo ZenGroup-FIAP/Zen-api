@@ -1,0 +1,9 @@
+package br.com.zenGroup.resource;
+
+public class TesteResource {
+	
+	public String ola() {
+		return "Olá Mundo!";
+	}
+	
+}

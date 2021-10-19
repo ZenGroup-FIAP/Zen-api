@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+241033913.index
+1206682611.index
+2539295078.index
+1606953894.index
+2332609340.index
+1065524695.index
