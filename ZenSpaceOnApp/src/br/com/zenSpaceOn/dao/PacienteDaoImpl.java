@@ -29,7 +29,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		ps.execute();
 		ps.close();
-		conn.closeConnection();
 	}
 
 	@Override
@@ -55,7 +54,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		rs.close();
 		ps.close();
-		conn.closeConnection();
 		
 		
 		return lista;
@@ -83,20 +81,24 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		rs.close();
 		ps.close();
-		conn.closeConnection();
 		
 		return paciente;
 	}
 
 	@Override
-	public PacienteTO select(String email, String senha) throws SQLException {
+	public List<PacienteTO> select(String email, String senha) throws SQLException {
 		conn = ConnectionOracle.getInstance();
-		PacienteTO paciente = new PacienteTO();
-		String sql = "SELECT * FROM T_ZSO_PACIENTE WHERE DS_EMAIL = " + email + " AND DS_SENHA = " + senha;
+		List<PacienteTO> lista = new ArrayList<>();
+		String sql = "SELECT * FROM T_ZSO_PACIENTE WHERE DS_EMAIL=? AND DS_SENHA=?";
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
+		ps.setString(1, email);
+		ps.setString(2, senha);
 		ResultSet rs = ps.executeQuery();
 		
-		if (rs.next()) {
+		
+		
+		while (rs.next()) {
+			PacienteTO paciente = new PacienteTO();
 			paciente.setCodigo(rs.getInt("CD_PACIENTE"));
 			paciente.setNome(rs.getString("NM_PACIENTE"));
 			paciente.setEmail(rs.getString("DS_EMAIL"));
@@ -104,15 +106,13 @@ public class PacienteDaoImpl implements PacienteDao {
 			paciente.setTelefone(rs.getString("NR_TELEFONE"));
 			paciente.setCpf(rs.getString("NR_CPF"));
 			paciente.setNascimento(rs.getDate("DT_NASCIMENTO"));
-		} else {
-			paciente = null;
+			lista.add(paciente);
 		}
+			
 		
 		rs.close();
 		ps.close();
-		conn.closeConnection();
-		
-		return paciente;
+		return lista;
 	}
 
 	@Override
@@ -131,18 +131,16 @@ public class PacienteDaoImpl implements PacienteDao {
 		ps.execute();
 		
 		ps.close();
-		conn.closeConnection();
 		
 	}
 
 	@Override
 	public void delete(Integer codigo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
-		String sql = "DELETE FROM T_ZSO_PACIENTE WHERE CD_CONSULTA = " + codigo + ";DELETE FROM T_ZSO_AGENDAMENTO WHERE CD_PACIENTE = " + codigo + ";DELETE FROM T_ZSO_PACIENTE WHERE CD_PACIENTE = " + codigo;
+		String sql = "DELETE FROM T_ZSO_PACIENTE WHERE CD_PACIENTE = " + codigo;
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
 		
 		ps.execute();
 		ps.close();
-		conn.closeConnection();
 	}
 }
