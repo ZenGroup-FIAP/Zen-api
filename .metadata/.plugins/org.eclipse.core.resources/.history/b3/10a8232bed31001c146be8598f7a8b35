@@ -59,18 +59,16 @@ public class PacienteResource {
 		return Response.created(builder.build()).build();
 	}
 	
-	
-	@GET
-	@Path("/login/{email}/{senha}")
+	/* Rota de login
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Boolean login(@PathParam("email") String email, @PathParam("senha") String senha) {	
+	public Boolean login(String email, String senha, @Context UriInfo uriInfo) {
 		if (bo.autenticar(email, senha)) {
 			return true;
 		} else {
 			return false;
 		}
 	}
-	
-	
-	
+	*/
 }

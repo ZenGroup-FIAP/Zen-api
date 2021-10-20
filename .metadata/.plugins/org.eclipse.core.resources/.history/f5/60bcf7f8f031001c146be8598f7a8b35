@@ -63,14 +63,15 @@ public class PacienteResource {
 	@GET
 	@Path("/login/{email}/{senha}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Boolean login(@PathParam("email") String email, @PathParam("senha") String senha) {	
+	public Boolean login(@PathParam("email") String email, @PathParam("senha") String senha) {
+		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
+		builder.path(Boolean.toString(bo.autenticar(email, senha)));
+		
 		if (bo.autenticar(email, senha)) {
 			return true;
 		} else {
 			return false;
 		}
 	}
-	
-	
 	
 }
