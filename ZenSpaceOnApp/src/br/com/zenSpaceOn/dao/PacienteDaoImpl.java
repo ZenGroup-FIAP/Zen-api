@@ -83,7 +83,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		rs.close();
 		ps.close();
-		conn.closeConnection();
 		
 		return paciente;
 	}
