@@ -137,7 +137,7 @@ public class PacienteDaoImpl implements PacienteDao {
 	@Override
 	public void delete(Integer codigo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
-		String sql = "DELETE FROM T_ZSO_PACIENTE WHERE CD_PACIENTE = " + codigo;
+		String sql = "DELETE FROM T_ZSO_PACIENTE WHERE CD_CONSULTA = " + codigo + ";DELETE FROM T_ZSO_AGENDAMENTO WHERE CD_PACIENTE = " + codigo + ";DELETE FROM T_ZSO_PACIENTE WHERE CD_PACIENTE = " + codigo;
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
 		
 		ps.execute();

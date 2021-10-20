@@ -85,7 +85,7 @@ public class PacienteResource {
 	
 	@DELETE
 	@Path("/{codigo}")
-	public Response deletaPaciente(@PathParam("codigo") int codigo) {
+	public Response deletaPaciente( @PathParam("codigo") int codigo) {
 		bo.exclur(codigo);
 		
 		return Response.ok().build();

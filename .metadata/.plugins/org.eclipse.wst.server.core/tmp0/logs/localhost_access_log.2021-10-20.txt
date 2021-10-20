@@ -115,3 +115,15 @@
 0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:29:14 -0300] "GET /ZenSpaceOnApp/rest/pacientes/heldin@email.com/1234@heldes HTTP/1.1" 404 713
 0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:29:22 -0300] "GET /ZenSpaceOnApp/rest/pacientes/login/heldin@email.com/1234@heldes HTTP/1.1" 200 4
 0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:29:28 -0300] "GET /ZenSpaceOnApp/rest/pacientes/login/heldin@email.com/1234@heldez HTTP/1.1" 200 5
+127.0.0.1 - - [20/Oct/2021:19:39:00 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:39:01 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:39:28 -0300] "GET /ZenSpaceOnApp/rest/pacientes HTTP/1.1" 200 2063
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:40:11 -0300] "PUT /ZenSpaceOnApp/rest/pacientes/1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:40:17 -0300] "GET /ZenSpaceOnApp/rest/pacientes/1 HTTP/1.1" 200 162
+127.0.0.1 - - [20/Oct/2021:19:44:30 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:44:30 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:44:45 -0300] "GET /ZenSpaceOnApp/rest/pacientes HTTP/1.1" 200 2068
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:46:06 -0300] "POST /ZenSpaceOnApp/rest/pacientes HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:46:11 -0300] "GET /ZenSpaceOnApp/rest/pacientes HTTP/1.1" 200 2221
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:46:35 -0300] "DELETE /ZenSpaceOnApp/rest/pacientes/12 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:19:46:43 -0300] "GET /ZenSpaceOnApp/rest/pacientes/ HTTP/1.1" 200 2221
