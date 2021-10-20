@@ -78,8 +78,6 @@ public class PacienteResource {
 	public Response atualiza(PacienteTO paciente, @PathParam("codigo") int codigo) {
 		paciente.setCodigo(codigo);
 		bo.atualizar(paciente);
-		
-		return Response.ok().build();
 	}
 	
 }
