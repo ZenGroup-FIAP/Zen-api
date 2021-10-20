@@ -29,7 +29,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		ps.execute();
 		ps.close();
-		conn.closeConnection();
 	}
 
 	@Override
@@ -55,7 +54,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		rs.close();
 		ps.close();
-		conn.closeConnection();
 		
 		
 		return lista;
@@ -109,7 +107,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		rs.close();
 		ps.close();
-		conn.closeConnection();
 		
 		return paciente;
 	}
@@ -130,7 +127,6 @@ public class PacienteDaoImpl implements PacienteDao {
 		ps.execute();
 		
 		ps.close();
-		conn.closeConnection();
 		
 	}
 
@@ -142,6 +138,5 @@ public class PacienteDaoImpl implements PacienteDao {
 		
 		ps.execute();
 		ps.close();
-		conn.closeConnection();
 	}
 }
