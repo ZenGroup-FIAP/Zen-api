@@ -1,0 +1,19 @@
+package br.com.zenSpaceOn.resource;
+
+import java.util.List;
+
+import javax.ws.rs.Path;
+
+import br.com.zenSpaceOn.bo.PacienteBO;
+import br.com.zenSpaceOn.to.PacienteTO;
+
+@Path("/pacientes")
+public class PacienteResource {
+	private PacienteBO bo = new PacienteBO();
+	
+	
+	public List<PacienteTO> listarTodos() {
+		return 
+	}
+	
+}

@@ -7,4 +7,7 @@
 1634678188583	Delete element
 1634678206391	Rename package 'to'
 1634678254578	Rename package 'entities'
-1634678293815	Rename package 'enums'
+1634678746903	Rename package 'dao'
+1634678772760	Rename package 'enums'
+1634678790589	Rename package 'bo'
+1634678812597	Rename package 'bo.intefaces'
