@@ -1,0 +1,9 @@
+127.0.0.1 - - [21/Oct/2021:15:31:10 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:31:11 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:31:46 -0300] "GET /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 200 3151
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:36:08 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 204 -
+127.0.0.1 - - [21/Oct/2021:15:42:59 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:42:59 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:43:21 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:45:14 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:15:45:18 -0300] "GET /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 356

@@ -111,7 +111,7 @@ public class PsicologoDaoImpl implements PsicologoDao {
 	public PsicologoTO select(Integer codigo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
 		PsicologoTO psicologo = new PsicologoTO();
-		String sql = "SELECT * FROM T_ZSO_PSICOLOGO WHERE CD_PSICOLOGO = " + codigo;
+		String sql = "SELECT * FROM T_ZSO_PACIENTE WHERE CD_PSICOLOGO = " + codigo;
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
 		ResultSet rs = ps.executeQuery();
 		

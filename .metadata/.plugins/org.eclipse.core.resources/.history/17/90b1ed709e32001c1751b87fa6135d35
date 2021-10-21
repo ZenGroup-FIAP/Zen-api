@@ -37,7 +37,6 @@ public class PsicologoDaoImpl implements PsicologoDao {
 		ps.setInt(13, psicologo.getConsultas());
 			
 		ps.close();
-
 	}
 
 	@Override
@@ -103,15 +102,16 @@ public class PsicologoDaoImpl implements PsicologoDao {
 		
 		rs.close();
 		ps.close();
+		conn.closeConnection();
 		
 		return lista;
 	}
 
 	@Override
-	public PsicologoTO select(Integer codigo) throws SQLException {
+	public List<PsicologoTO> select(Integer codigo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
 		PsicologoTO psicologo = new PsicologoTO();
-		String sql = "SELECT * FROM T_ZSO_PSICOLOGO WHERE CD_PSICOLOGO = " + codigo;
+		String sql = "SELECT * FROM T_ZSO_PACIENTE WHERE CD_PSICOLOGO = " + codigo;
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
 		ResultSet rs = ps.executeQuery();
 		
@@ -131,13 +131,15 @@ public class PsicologoDaoImpl implements PsicologoDao {
 			psicologo.setConsultas(rs.getInt("NR_CONSULTAS"));	
 			
 		}else {
-			psicologo = null;
+			psicologo =null;
 		}
 		
 		rs.close();
 		ps.close();
+		conn.closeConnection();
 		
 		return psicologo;
+		
 	}
 
 	@Override
@@ -194,7 +196,7 @@ public class PsicologoDaoImpl implements PsicologoDao {
 		ps.setDouble(10, psicologo.getRating());
 		ps.setString(11, psicologo.getDisponibilidade().toString());
 		ps.setInt(12, psicologo.getConsultas());
-		ps.setInt(13, psicologo.getCodigo());
+		ps.setInt(13, codigo);
 		
 		ps.execute();
 		
