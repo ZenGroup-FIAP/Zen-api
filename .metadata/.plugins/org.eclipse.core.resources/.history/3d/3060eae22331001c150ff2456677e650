@@ -1,8 +1,0 @@
-package br.com.zenSpaceOn.resource;
-
-import javax.ws.rs.Path;
-
-@Path("/pacientes")
-public class PacienteResource {
-	
-}

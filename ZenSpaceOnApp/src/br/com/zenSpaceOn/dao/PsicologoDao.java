@@ -17,7 +17,7 @@ public interface PsicologoDao {
 	
 	public PsicologoTO select(String email, String senha) throws SQLException;
 	
-	public void update(Integer codigo) throws SQLException;
+	public void update(PsicologoTO psicologo, Integer codigo) throws SQLException;
 	
 	public void delete(Integer codigo) throws SQLException;
 }
