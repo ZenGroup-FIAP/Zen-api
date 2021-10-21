@@ -36,8 +36,8 @@ public class PsicologoDaoImpl implements PsicologoDao {
 		ps.setString(12, psicologo.getDisponibilidade().toString());
 		ps.setInt(13, psicologo.getConsultas());
 		
-		ps.execute();
 		ps.close();
+
 	}
 
 	@Override

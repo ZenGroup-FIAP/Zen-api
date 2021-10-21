@@ -38,6 +38,7 @@ public class PsicologoDaoImpl implements PsicologoDao {
 		
 		ps.execute();
 		ps.close();
+
 	}
 
 	@Override

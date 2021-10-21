@@ -48,7 +48,6 @@ public class PsicologoResource {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response cadastrarPsicologo(PsicologoTO psicologo, @Context UriInfo uriInfo) {
 		List<PsicologoTO> psicologos = bo.listar();
-		System.out.println(psicologos);
 		List<Integer>codigosCadastrados = new ArrayList<>();
 		int codigoPsicologo = 1;
 		

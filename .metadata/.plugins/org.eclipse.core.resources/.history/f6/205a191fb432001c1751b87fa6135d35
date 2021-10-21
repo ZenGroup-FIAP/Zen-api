@@ -17,6 +17,7 @@ import javax.ws.rs.core.UriInfo;
 
 import br.com.zenSpaceOn.bo.PsicologoBO;
 import br.com.zenSpaceOn.enums.Disponibilidade;
+import br.com.zenSpaceOn.to.PacienteTO;
 import br.com.zenSpaceOn.to.PsicologoTO;
 
 @Path("/psicologos")
@@ -48,7 +49,6 @@ public class PsicologoResource {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response cadastrarPsicologo(PsicologoTO psicologo, @Context UriInfo uriInfo) {
 		List<PsicologoTO> psicologos = bo.listar();
-		System.out.println(psicologos);
 		List<Integer>codigosCadastrados = new ArrayList<>();
 		int codigoPsicologo = 1;
 		
@@ -63,7 +63,7 @@ public class PsicologoResource {
 		psicologo.setCodigo(codigoPsicologo);
 		bo.cadastrar(psicologo);
 		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
-		builder.path(Integer.toString(psicologo.getCodigo()));
+		builder.path(Integer.toString(paciente.getCodigo()));
 		return Response.created(builder.build()).build();
 	}
 }

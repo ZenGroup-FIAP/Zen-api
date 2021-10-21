@@ -1,6 +1,5 @@
 package br.com.zenSpaceOn.resource;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
@@ -9,11 +8,8 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.UriBuilder;
-import javax.ws.rs.core.UriInfo;
 
 import br.com.zenSpaceOn.bo.PsicologoBO;
 import br.com.zenSpaceOn.enums.Disponibilidade;
@@ -45,25 +41,8 @@ public class PsicologoResource {
 	}
 	
 	@POST
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Response cadastrarPsicologo(PsicologoTO psicologo, @Context UriInfo uriInfo) {
-		List<PsicologoTO> psicologos = bo.listar();
-		System.out.println(psicologos);
-		List<Integer>codigosCadastrados = new ArrayList<>();
-		int codigoPsicologo = 1;
-		
-		for (PsicologoTO p : psicologos) {
-			codigosCadastrados.add(p.getCodigo());
-		}
-		
-		while (codigosCadastrados.indexOf(codigoPsicologo) != -1) {;
-			codigoPsicologo++;
-		}
-		
-		psicologo.setCodigo(codigoPsicologo);
+	@Path("/cadastrar")
+	public Response cadastrarPsicologo(PsicologoTO psicologo) {
 		bo.cadastrar(psicologo);
-		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
-		builder.path(Integer.toString(psicologo.getCodigo()));
-		return Response.created(builder.build()).build();
 	}
 }

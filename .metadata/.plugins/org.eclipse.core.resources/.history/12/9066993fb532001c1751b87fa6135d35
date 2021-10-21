@@ -19,7 +19,7 @@ public class PsicologoDaoImpl implements PsicologoDao {
 	@Override
 	public void insert(PsicologoTO psicologo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
-		String sql = "INSERT INTO T_ZSO_PSICOLOGO (CD_PSICOLOGO, NM_PSICOLOGO, DS_EMAIL, DS_SENHA, VL_HORA, NR_RANKING, TX_DESC_PERFIL,  NR_TELEFONE,  NR_CPF, DT_NASCIMENTO,  NR_RATING, DS_DISPONIBILIDADE, NR_CONSULTAS) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		String sql = "INSERT INTO T_ZSO_PSICOLOGO (CD_PSICOLOGO, NM_PSICOLOGO, DS_EMAIL, DS_SENHA, VL_HORA, NR_RANKING, TX_DESC_PERFIL,  NR_TELEFONE,  NR_CPF, DT_NASCIMENTO,  NR_RATING, DS_DISPONIBILIDADE, NR_CONSULTAS) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
 			
 		ps.setInt(1, psicologo.getCodigo());
@@ -35,9 +35,9 @@ public class PsicologoDaoImpl implements PsicologoDao {
 		ps.setDouble(11, psicologo.getRating());
 		ps.setString(12, psicologo.getDisponibilidade().toString());
 		ps.setInt(13, psicologo.getConsultas());
-		
-		ps.execute();
+			
 		ps.close();
+
 	}
 
 	@Override
