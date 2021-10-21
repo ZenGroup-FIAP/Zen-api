@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
-import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
@@ -78,10 +77,4 @@ public class PsicologoResource {
 		return Response.ok().build();
 	}
 	
-	@DELETE
-	@Path("/{codigo}")
-	public Response deletarPsicologo( @PathParam("codigo") Integer codigo) {
-		bo.excluir(codigo);
-		return Response.ok().build();
-	}
 }

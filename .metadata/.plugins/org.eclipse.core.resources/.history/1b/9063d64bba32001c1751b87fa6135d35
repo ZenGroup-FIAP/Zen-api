@@ -80,8 +80,9 @@ public class PsicologoResource {
 	
 	@DELETE
 	@Path("/{codigo}")
-	public Response deletarPsicologo( @PathParam("codigo") Integer codigo) {
+	public Response deletarPsicologo(Integer codigo) {
 		bo.excluir(codigo);
+		
 		return Response.ok().build();
 	}
 }

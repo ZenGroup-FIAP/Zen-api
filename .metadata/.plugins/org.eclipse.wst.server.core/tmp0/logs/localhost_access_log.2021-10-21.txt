@@ -66,3 +66,14 @@
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:52:50 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 309
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:54:42 -0300] "PUT /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 -
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:54:46 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 268
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:01:34 -0300] "GET /ZenSpaceOnApp/rest/psicologos/ HTTP/1.1" 200 3459
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:01:57 -0300] "DELETE /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 400 204
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:02:15 -0300] "GET /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 356
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:02:46 -0300] "DELETE /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 400 205
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:02:55 -0300] "DELETE /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:03:00 -0300] "GET /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 356
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:03:57 -0300] "DELETE /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:04:07 -0300] "GET /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 356
+127.0.0.1 - - [21/Oct/2021:19:04:56 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:04:57 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:19:05:28 -0300] "DELETE /ZenSpaceOnApp/rest/psicologos/2 HTTP/1.1" 200 -
