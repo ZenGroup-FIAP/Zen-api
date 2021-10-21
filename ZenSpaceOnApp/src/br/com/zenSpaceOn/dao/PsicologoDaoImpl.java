@@ -75,11 +75,22 @@ public class PsicologoDaoImpl implements PsicologoDao {
 
 	
 	@Override
-	public List<PsicologoTO> select(Double rating, Disponibilidade disponibilidade, Integer consultas) throws SQLException {
+	public List<PsicologoTO> select(Double rating, Disponibilidade disponibilidade, String consultas) throws SQLException {
 		conn = ConnectionOracle.getInstance();
 		List<PsicologoTO> lista = new ArrayList<>();
-		String sql = "SELECT * FROM T_ZSO_PSICOLOGO WHERE NR_RATING =" + rating + "AND DS_DISPONIBILIDADE =" + disponibilidade + "AND NR_CONSULTAS =" + consultas;
+		String sql = null;		
+		if (consultas.equals("ACIMA_DE_100")) {
+			sql = "SELECT * FROM T_ZSO_PSICOLOGO WHERE NR_RATING = ? AND DS_DISPONIBILIDADE = ? AND NR_CONSULTAS > ?";
+		} else if (consultas.equals("ABAIXO_DE_100")) {
+			sql = "SELECT * FROM T_ZSO_PSICOLOGO WHERE NR_RATING = ? AND DS_DISPONIBILIDADE = ? AND NR_CONSULTAS < ?";
+		} else {
+			sql = "SELECT * FROM T_ZSO_PSICOLOGO WHERE NR_RATING = ? AND DS_DISPONIBILIDADE = ? AND NR_CONSULTAS = ?";
+		}
+		
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
+		ps.setString(1, rating.toString());
+		ps.setString(2, disponibilidade.toString());
+		ps.setInt(3, 100);
 		ResultSet rs = ps.executeQuery();
 		
 		while (rs.next()){

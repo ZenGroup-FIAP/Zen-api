@@ -11,7 +11,7 @@ public interface PsicologoDao {
 	
 	public List<PsicologoTO> select() throws SQLException;
 	
-	public List<PsicologoTO> select(Double rating, Disponibilidade disponibilidade, Integer consultas) throws SQLException;
+	public List<PsicologoTO> select(Double rating, Disponibilidade disponibilidade, String consultas) throws SQLException;
 
 	public PsicologoTO select(Integer codigo) throws SQLException;
 	

@@ -66,7 +66,7 @@ public class PsicologoBO implements Autenticavel {
 		return psicologo;
 	}
 	
-	public List<PsicologoTO> filtro(Double rating, Disponibilidade disponibilidade, Integer consultas) {
+	public List<PsicologoTO> filtro(Double rating, Disponibilidade disponibilidade, String consultas) {
 		dao = new PsicologoDaoImpl();
 		List<PsicologoTO> lista = null;
 		try {
