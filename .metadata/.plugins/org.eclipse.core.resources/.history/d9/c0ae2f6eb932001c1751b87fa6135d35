@@ -190,7 +190,7 @@ public class PsicologoDaoImpl implements PsicologoDao {
 	@Override
 	public void update(PsicologoTO psicologo, Integer codigo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
-		String sql = "UPDATE T_ZSO_PSICOLOGO SET NM_PSICOLOGO=?, DS_EMAIL=?, DS_SENHA=?, VL_HORA=?, NR_RANKING=?, TX_DESC_PERFIL=?, NR_TELEFONE=?, NR_CPF=?, DT_NASCIMENTO=?, NR_RATING=?, DS_DISPONIBILIDADE=?, NR_CONSULTAS=? WHERE CD_PSICOLOGO=?";
+		String sql = "UPDATE T_ZSO_PACIENTE SET NM_PSICOLOGO=?, DS_EMAIL=?, DS_SENHA=?, VL_HORA=?, NR_RANKING=?, TX_DESC_PERFIL=?, NR_TELEFONE=?, NR_CPF=?, DT_NASCIMENTO=?, NR_RATING=?, DS_DISPONIBILIDADE=?, NR_CONSULTAS=? WHERE CD_PSICOLOGO=?";
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
 		
 		ps.setString(1, psicologo.getNome());

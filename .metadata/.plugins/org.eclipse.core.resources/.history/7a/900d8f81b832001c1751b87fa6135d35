@@ -6,7 +6,6 @@ import java.util.List;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
-import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -66,15 +65,4 @@ public class PsicologoResource {
 		builder.path(Integer.toString(psicologo.getCodigo()));
 		return Response.created(builder.build()).build();
 	}
-	
-	@PUT
-	@Path("/{codigo}")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Response atualizarDados(PsicologoTO psicologo, @PathParam("codigo") Integer codigo) {
-		psicologo.setCodigo(codigo);
-		bo.atualizar(psicologo, codigo);
-		
-		return Response.ok().build();
-	}
-	
 }

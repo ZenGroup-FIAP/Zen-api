@@ -68,13 +68,8 @@ public class PsicologoResource {
 	}
 	
 	@PUT
-	@Path("/{codigo}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response atualizarDados(PsicologoTO psicologo, @PathParam("codigo") Integer codigo) {
-		psicologo.setCodigo(codigo);
+	public Response atualizarDados(PsicologoTO psicologo, Integer codigo) {
 		bo.atualizar(psicologo, codigo);
-		
-		return Response.ok().build();
 	}
-	
 }

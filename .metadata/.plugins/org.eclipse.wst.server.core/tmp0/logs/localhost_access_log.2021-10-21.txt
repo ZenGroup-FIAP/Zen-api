@@ -56,3 +56,13 @@
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:31:10 -0300] "GET /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 200 3151
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:31:14 -0300] "GET /ZenSpaceOnApp/rest/psicologos/11 HTTP/1.1" 204 -
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:31:22 -0300] "POST /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 201 -
+127.0.0.1 - - [21/Oct/2021:18:32:51 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:32:52 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:34:41 -0300] "POST /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:35:41 -0300] "GET /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 200 3151
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:45:27 -0300] "POST /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:45:31 -0300] "GET /ZenSpaceOnApp/rest/psicologos HTTP/1.1" 200 3500
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:52:44 -0300] "PUT /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:52:50 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:54:42 -0300] "PUT /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:18:54:46 -0300] "GET /ZenSpaceOnApp/rest/psicologos/1 HTTP/1.1" 200 268

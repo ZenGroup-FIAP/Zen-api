@@ -883,3 +883,91 @@
 2021-10-21 18:07:46,044 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
 2021-10-21 18:07:46,045 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-10-21 18:07:46,045 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:11:54,869 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:11:54,870 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:11:54,871 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:11:54,871 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:12:09,741 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:12:09,742 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:12:09,742 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:12:09,743 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:12:46,654 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:12:46,654 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:12:46,655 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:12:46,655 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:13:10,941 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:13:10,942 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:13:10,943 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:13:10,943 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:13:36,583 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:13:36,584 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:13:36,584 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:13:36,585 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:16:05,276 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:16:05,277 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:16:05,277 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:16:05,278 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:16:14,049 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:16:14,049 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:16:14,050 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:16:14,050 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:24:18,081 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:24:18,082 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:24:18,082 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:24:18,083 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:29:21,217 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:29:21,218 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:29:21,218 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:29:21,219 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:32:25,188 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:32:25,189 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:32:25,189 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:32:25,190 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:45:06,880 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:45:06,880 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:45:06,881 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:45:06,882 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:45:08,217 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:45:08,217 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:45:08,219 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:45:08,219 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:45:17,273 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:45:17,274 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:45:17,275 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:45:17,275 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:46:45,785 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:46:45,786 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:46:45,787 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:46:45,787 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:47:37,223 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:47:37,224 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:47:37,225 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:47:37,225 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:48:36,999 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:48:37,000 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:48:37,001 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:48:37,002 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:49:05,141 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:49:05,142 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:49:05,142 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:49:05,143 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:49:22,533 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:49:22,534 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:49:22,534 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:49:22,535 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:50:19,979 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:50:19,980 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:50:19,981 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:50:19,981 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:50:32,679 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:50:32,679 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:50:32,680 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:50:32,681 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:54:14,276 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:54:14,277 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:54:14,277 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:54:14,278 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources
+2021-10-21 18:55:26,402 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:55:26,403 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\main\resources
+2021-10-21 18:55:26,403 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-21 18:55:26,404 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Fiap\ZenSpace\ZenSpaceOn\back-end\api\ZenSpaceOnApp\src\test\resources

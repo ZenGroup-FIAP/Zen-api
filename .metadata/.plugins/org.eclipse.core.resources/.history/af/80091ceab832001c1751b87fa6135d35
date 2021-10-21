@@ -73,8 +73,5 @@ public class PsicologoResource {
 	public Response atualizarDados(PsicologoTO psicologo, @PathParam("codigo") Integer codigo) {
 		psicologo.setCodigo(codigo);
 		bo.atualizar(psicologo, codigo);
-		
-		return Response.ok().build();
 	}
-	
 }
