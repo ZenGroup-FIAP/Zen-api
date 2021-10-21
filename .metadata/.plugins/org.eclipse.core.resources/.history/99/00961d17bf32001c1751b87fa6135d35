@@ -1,0 +1,16 @@
+package br.com.zenSpaceOn.dao;
+
+import java.sql.SQLException;
+
+import br.com.zenSpaceOn.to.AgendamentoTO;
+
+public interface AgendamentoDao {
+	public void insert(AgendamentoTO agendamento) throws SQLException;
+	public List<AgendamentoTO> select() throws SQLException;
+	public void insert(AgendamentoTO agendamento) throws SQLException;
+	public void insert(AgendamentoTO agendamento) throws SQLException;
+	public void insert(AgendamentoTO agendamento) throws SQLException;
+	public void insert(AgendamentoTO agendamento) throws SQLException;
+	public void insert(AgendamentoTO agendamento) throws SQLException;
+	
+}
