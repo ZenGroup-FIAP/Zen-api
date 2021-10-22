@@ -1,0 +1,13 @@
+package br.com.zenSpaceOn.to;
+
+public class ConsultaTO {
+	private Integer codigo;
+	private Integer codigoAgendamento;
+	private Integer codigoPaciente;
+	private Integer codigoPsicologo;
+	private Double valorConsulta;
+	
+	
+	
+	
+}

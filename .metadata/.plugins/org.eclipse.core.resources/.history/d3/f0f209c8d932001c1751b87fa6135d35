@@ -1,0 +1,21 @@
+package br.com.zenSpaceOn.bo;
+
+import java.sql.SQLException;
+
+import br.com.zenSpaceOn.dao.ConsultaDaoImpl;
+import br.com.zenSpaceOn.to.ConsultaTO;
+
+public class ConsultaBO {
+	
+	private ConsultaDaoImpl dao = new ConsultaDaoImpl();
+	
+	public void criar(ConsultaTO consulta) {
+		try {
+			dao.insert(consulta);
+		} catch (SQLException e) {
+			System.out.println("ERRO AO CRIAR CONSULTA...");
+			e.printStackTrace();
+		}
+	}
+	
+}

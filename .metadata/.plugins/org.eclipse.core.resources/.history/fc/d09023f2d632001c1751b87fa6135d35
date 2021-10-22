@@ -1,0 +1,34 @@
+package br.com.zenSpaceOn.bo;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import br.com.zenSpaceOn.dao.AgandamentoDaoImpl;
+import br.com.zenSpaceOn.to.AgendamentoTO;
+
+public class AgendamentoBO {
+	
+	private AgandamentoDaoImpl dao = new AgandamentoDaoImpl();
+	
+	public void criar(AgendamentoTO agendamento) {
+		try {
+			dao.insert(agendamento);
+		} catch (SQLException e) {
+			System.out.println("ERRO AO CRIAR AGENDAMENTO...");
+			e.printStackTrace();
+		}
+	}
+	
+	public List<AgendamentoTO> listar(AgendamentoTO agendamento) {
+		List<AgendamentoTO> agendamentos = null;
+		try {
+			agendamentos = dao.select();
+		} catch (SQLException e) {
+			System.out.println("ERRO AO LISTAR AGENDAMENTOS...");
+			e.printStackTrace();
+		}
+		return agendamentos;
+	}
+	
+	
+}

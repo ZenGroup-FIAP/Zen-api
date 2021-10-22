@@ -77,7 +77,12 @@ public class PacienteBO implements Autenticavel{
 	
 	public void exclur(Integer codigo) {
 		dao = new PacienteDaoImpl();
+		AgendamentoBO agbo = new AgendamentoBO();
+		ConsultaBO csbo = new ConsultaBO();
 		
+		
+		csbo.excluirByPaciente(codigo);
+		agbo.excluirByPaciente(codigo);
 		try {
 			dao.delete(codigo);
 		} catch (SQLException e) {

@@ -1,0 +1,13 @@
+package br.com.zenSpaceOn.bo;
+
+import br.com.zenSpaceOn.dao.ConsultaDaoImpl;
+
+public class ConsultaBO {
+	
+	private ConsultaDaoImpl dao = new ConsultaDaoImpl();
+	
+	public void criar(ConsultaTO consulta) {
+		
+	}
+	
+}

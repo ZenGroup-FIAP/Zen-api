@@ -1,0 +1,56 @@
+package br.com.zenSpaceOn.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import br.com.zenSpaceOn.to.ConsultaTO;
+import br.com.zenSpaceOn.tools.ConnectionOracle;
+
+public class ConsultaDaoImpl implements ConsultaDao {
+
+	private ConnectionOracle conn;
+	
+	@Override
+	public void insert(ConsultaTO consulta) throws SQLException {
+		conn = ConnectionOracle.getInstance();
+		String sql = "INSERT INTO T_ZSO_CONSULTA (CD_CONSULTA, CD_AGENDAMENTO, CD_PACIENTE, CD_PSICOLOGO, VL_CONSULTA) VALUES (?,?,?,?,?)";
+		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
+		ps.setInt(1, consulta.getCodigo());
+		ps.setInt(2, consulta.getCodigoAgendamento());
+		ps.setInt(3, consulta.getCodigoPaciente());
+		ps.setInt(4, consulta.getCodigoPsicologo());
+		ps.setDouble(5, consulta.getValorConsulta());
+		
+		ps.execute();
+		ps.close();
+	}
+
+	@Override
+	public List<ConsultaTO> select() throws SQLException {
+		conn = ConnectionOracle.getInstance();
+		String sql = "SELECT * FROM T_ZSO_CONSULTA";
+		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
+		
+		return null;
+	}
+
+	@Override
+	public ConsultaTO select(Integer codigo) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(ConsultaTO agendamento, Integer codigo) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Integer codigo) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+}

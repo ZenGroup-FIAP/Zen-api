@@ -1,0 +1,19 @@
+package br.com.zenSpaceOn.resource;
+
+import java.util.List;
+
+import javax.ws.rs.Path;
+
+import br.com.zenSpaceOn.bo.PsicologoBO;
+import br.com.zenSpaceOn.to.PsicologoTO;
+
+@Path("/psicologos")
+public class PsicologoResource {
+	
+	private PsicologoBO bo = new PsicologoBO();
+	
+	public List<PsicologoTO> listarPsicologos() {
+		return bo.listar();
+	}
+	
+}

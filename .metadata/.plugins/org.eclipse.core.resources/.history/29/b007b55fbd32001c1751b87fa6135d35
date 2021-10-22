@@ -1,0 +1,27 @@
+package br.com.zenSpaceOn.to;
+
+public class ConsultaTO {
+	private Integer codigo;
+	private Integer codigoAgendamento;
+	private Integer codigoPaciente;
+	private Integer codigoPsicologo;
+	private Double valorConsulta;
+	
+	
+	public ConsultaTO() {
+		
+	}
+	
+	public ConsultaTO(Integer codigo, Integer codigoAgendamento, Integer codigoPaciente, Integer codigoPsicologo,
+			Double valorConsulta) {
+		this.codigo = codigo;
+		this.codigoAgendamento = codigoAgendamento;
+		this.codigoPaciente = codigoPaciente;
+		this.codigoPsicologo = codigoPsicologo;
+		this.valorConsulta = valorConsulta;
+	}
+	
+	
+	
+	
+}

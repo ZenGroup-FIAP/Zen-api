@@ -1,0 +1,11 @@
+package br.com.zenSpaceOn.bo;
+
+import br.com.zenSpaceOn.dao.AgandamentoDaoImpl;
+
+public class AgendamentoBO {
+	
+	private AgandamentoDaoImpl dao = new AgandamentoDaoImpl();
+	
+	
+	
+}
