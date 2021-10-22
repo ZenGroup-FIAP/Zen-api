@@ -75,13 +75,13 @@ public class AgandamentoDaoImpl implements AgendamentoDao {
 	@Override
 	public void update(AgendamentoTO agendamento, Integer codigo) throws SQLException {
 		conn = ConnectionOracle.getInstance();
-		String sql = "UPDATE T_ZSO_AGENDAMENTO SET CD_PACIENTE=?, CD_PSICOLOGO=?, DT_CONSULTA=?, DT_HORA_CONSULTA=? WHERE CD_AGENDAMENTO=?";
+		String sql = "UPDATE T_ZSO_AGENDAMENTO SET CD_AGENDAMENTO=?, CD_PACIENTE=?, CD_PSICOLOGO=?, DT_CONSULTA=?, DT_HORA_CONSULTA=? WHERE CD_AGENDAMENTO=?";
 		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
-		ps.setInt(1, agendamento.getCodgiPaciente());
-		ps.setInt(2, agendamento.getCodigoPsicologo());
-		ps.setDate(3, agendamento.getDataConsulta());
-		ps.setDate(4, agendamento.getHoraConsulta());
-		ps.setInt(5, codigo);
+		ps.setInt(1, agendamento.getCodigo());
+		ps.setInt(2, agendamento.getCodgiPaciente());
+		ps.setInt(3, agendamento.getCodigoPsicologo());
+		ps.setDate(4, agendamento.getDataConsulta());
+		ps.setDate(5, agendamento.getHoraConsulta());
 		
 		ps.execute();
 		ps.close();
