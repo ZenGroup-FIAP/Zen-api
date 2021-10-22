@@ -1,0 +1,14 @@
+package br.com.zenSpaceOn.bo;
+
+import br.com.zenSpaceOn.dao.ConsultaDaoImpl;
+import br.com.zenSpaceOn.to.ConsultaTO;
+
+public class ConsultaBO {
+	
+	private ConsultaDaoImpl dao = new ConsultaDaoImpl();
+	
+	public void criar(ConsultaTO consulta) {
+		dao.insert(consulta);
+	}
+	
+}
