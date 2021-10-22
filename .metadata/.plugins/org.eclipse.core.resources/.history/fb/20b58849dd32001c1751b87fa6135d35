@@ -77,14 +77,4 @@ public class ConsultaBO {
 			e.printStackTrace();
 		}
 	}
-	
-	public void excluirByAgendamento(Integer codigo) {
-		try {
-			dao.deleteByAgendamento(codigo);
-		} catch (SQLException e) {
-			System.out.println("ERRO AO EXCLUIR CONSULTA...");
-			e.printStackTrace();
-		}
-	}
-	
 }
