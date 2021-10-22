@@ -1,0 +1,11 @@
+127.0.0.1 - - [22/Oct/2021:00:04:17 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:04:17 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:06:29 -0300] "POST /ZenSpaceOnApp/rest/consultas HTTP/1.1" 500 5302
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:07:17 -0300] "POST /ZenSpaceOnApp/rest/consultas HTTP/1.1" 500 5302
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:07:28 -0300] "POST /ZenSpaceOnApp/rest/consultas HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:07:35 -0300] "GET /ZenSpaceOnApp/rest/consultas HTTP/1.1" 200 1645
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:12:28 -0300] "PUT /ZenSpaceOnApp/rest/consultas/2 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:12:33 -0300] "GET /ZenSpaceOnApp/rest/consultas/2 HTTP/1.1" 200 96
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:14:48 -0300] "DELETE /ZenSpaceOnApp/rest/consultas/2 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:14:51 -0300] "GET /ZenSpaceOnApp/rest/consultas/2 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [22/Oct/2021:00:14:57 -0300] "GET /ZenSpaceOnApp/rest/consultas HTTP/1.1" 200 1548
