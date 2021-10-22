@@ -15,8 +15,4 @@ public interface AgendamentoDao {
 	public void update(AgendamentoTO agendamento, Integer codigo) throws SQLException;
 	
 	public void delete(Integer codigo) throws SQLException;
-	
-	public void deleteByPaciente(Integer codigo) throws SQLException;
-	
-	public void deleteByPsicologo(Integer codigo) throws SQLException;
 }

@@ -15,8 +15,4 @@ public void insert(ConsultaTO consulta) throws SQLException;
 	public void update(ConsultaTO agendamento, Integer codigo) throws SQLException;
 	
 	public void delete(Integer codigo) throws SQLException;
-	
-	public void deleteByPaciente(Integer codigo) throws SQLException;
-	
-	public void deleteByPsicologo(Integer codigo) throws SQLException;
 }

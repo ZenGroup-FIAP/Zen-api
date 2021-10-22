@@ -91,9 +91,6 @@ public class PsicologoBO implements Autenticavel {
 		AgendamentoBO agbo = new AgendamentoBO();
 		ConsultaBO csbo = new ConsultaBO();
 		
-		
-		csbo.excluirByPsicologo(codigo);
-		agbo.excluirByPsicologo(codigo);
 		dao = new PsicologoDaoImpl();
 		try {
 			dao.delete(codigo);

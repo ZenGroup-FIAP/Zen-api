@@ -110,12 +110,7 @@ public class AgandamentoDaoImpl implements AgendamentoDao {
 
 	@Override
 	public void deleteByPsicologo(Integer codigo) throws SQLException {
-		conn = ConnectionOracle.getInstance();
-		String sql = "DELETE FROM T_ZSO_AGENDAMENTO WHERE CD_PSICOLOGO=?";
-		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
-		ps.setInt(1, codigo);
-		ps.execute();
-		ps.close();	
+		// TODO Auto-generated method stub
 		
 	}
 

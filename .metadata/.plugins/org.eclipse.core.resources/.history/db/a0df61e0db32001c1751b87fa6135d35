@@ -58,22 +58,4 @@ public class AgendamentoBO {
 			e.printStackTrace();
 		}
 	}
-	
-	public void excluirByPaciente(Integer codigo) {
-		try {
-			dao.deleteByPaciente(codigo);
-		} catch (SQLException e) {
-			System.out.println("ERRO AO EXCLUIR AGENDAMENTO...");
-			e.printStackTrace();
-		}
-	}
-	
-	public void excluirByPsicologo(Integer codigo) {
-		try {
-			dao.deleteByPsicologo(codigo);
-		} catch (SQLException e) {
-			System.out.println("ERRO AO EXCLUIR AGENDAMENTO...");
-			e.printStackTrace();
-		}
-	}
 }

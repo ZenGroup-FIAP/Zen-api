@@ -103,26 +103,4 @@ public class ConsultaDaoImpl implements ConsultaDao {
 		ps.close();
 	}
 
-	@Override
-	public void deleteByPaciente(Integer codigo) throws SQLException {
-		conn = ConnectionOracle.getInstance();
-		String sql = "DELETE FROM T_ZSO_CONSULTA WHERE CD_PACIENTE=?";
-		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
-		ps.setInt(1, codigo);
-		
-		ps.execute();
-		ps.close();
-	}
-
-	@Override
-	public void deleteByPsicologo(Integer codigo) throws SQLException {
-		conn = ConnectionOracle.getInstance();
-		String sql = "DELETE FROM T_ZSO_CONSULTA WHERE CD_PSICOLOGO=?";
-		PreparedStatement ps = conn.getConnection().prepareStatement(sql);
-		ps.setInt(1, codigo);
-		
-		ps.execute();
-		ps.close();
-	}
-
 }

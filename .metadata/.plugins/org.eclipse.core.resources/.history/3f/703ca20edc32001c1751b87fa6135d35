@@ -69,12 +69,5 @@ public class ConsultaBO {
 		}
 	}
 	
-	public void excluirByPsicologo(Integer codigo) {
-		try {
-			dao.deleteByPsicologo(codigo);
-		} catch (SQLException e) {
-			System.out.println("ERRO AO EXCLUIR CONSULTA...");
-			e.printStackTrace();
-		}
-	}
+	
 }

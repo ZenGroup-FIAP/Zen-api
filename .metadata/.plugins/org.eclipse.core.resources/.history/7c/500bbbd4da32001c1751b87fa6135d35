@@ -13,6 +13,9 @@ import br.com.zenSpaceOn.to.PsicologoTO;
 public class PsicologoBO implements Autenticavel {
 	private PsicologoDaoImpl dao = null;
 	
+	// Composição
+	private AgendamentoBO agbo = new AgendamentoBO();
+	
 	@Override
 	public Boolean autenticar(String email, String senha) {
 		dao = new PsicologoDaoImpl();
@@ -88,12 +91,6 @@ public class PsicologoBO implements Autenticavel {
 	}
 	
 	public void excluir(Integer codigo) {
-		AgendamentoBO agbo = new AgendamentoBO();
-		ConsultaBO csbo = new ConsultaBO();
-		
-		
-		csbo.excluirByPsicologo(codigo);
-		agbo.excluirByPsicologo(codigo);
 		dao = new PsicologoDaoImpl();
 		try {
 			dao.delete(codigo);
