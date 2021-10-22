@@ -1,0 +1,15 @@
+package br.com.zenSpaceOn.resource;
+
+import javax.ws.rs.Path;
+
+import br.com.zenSpaceOn.bo.AgendamentoBO;
+
+@Path("/agendamentos")
+public class AgendamentoResource {
+	
+	private AgendamentoBO bo = new AgendamentoBO();
+	
+	public List<AgendamentoBO> listaDeAgendamentos() {
+		return bo.listar();
+	}
+}

@@ -1,0 +1,17 @@
+package br.com.zenSpaceOn.resource;
+
+import java.util.List;
+
+import javax.ws.rs.Path;
+
+import br.com.zenSpaceOn.bo.ConsultaBO;
+
+@Path("/consultas")
+public class ConsultaResource {
+	
+	private ConsultaBO bo = new ConsultaBO();
+
+	public List<ConstultaTO> listarConsultas() {
+		return bo.listar();
+	}
+}

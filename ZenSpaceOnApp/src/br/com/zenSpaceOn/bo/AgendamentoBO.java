@@ -19,7 +19,7 @@ public class AgendamentoBO {
 		}
 	}
 	
-	public List<AgendamentoTO> listar(AgendamentoTO agendamento) {
+	public List<AgendamentoTO> listar() {
 		List<AgendamentoTO> agendamentos = null;
 		try {
 			agendamentos = dao.select();
