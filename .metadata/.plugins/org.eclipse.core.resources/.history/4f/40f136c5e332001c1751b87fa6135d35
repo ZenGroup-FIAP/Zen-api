@@ -1,0 +1,23 @@
+package br.com.zenSpaceOn.resource;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import br.com.zenSpaceOn.bo.ConsultaBO;
+import br.com.zenSpaceOn.to.ConsultaTO;
+
+@Path("/consultas")
+public class ConsultaResource {
+	
+	private ConsultaBO bo = new ConsultaBO();
+
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<ConsultaTO> listarConsultas() {
+		return bo.listar();
+	}
+}

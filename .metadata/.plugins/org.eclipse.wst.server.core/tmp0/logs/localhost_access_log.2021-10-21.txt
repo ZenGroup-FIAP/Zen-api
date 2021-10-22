@@ -108,3 +108,7 @@
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:23:47:52 -0300] "DELETE /ZenSpaceOnApp/rest/agendamentos/5 HTTP/1.1" 405 725
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:23:48:36 -0300] "DELETE /ZenSpaceOnApp/rest/agendamentos/5 HTTP/1.1" 200 -
 0:0:0:0:0:0:0:1 - - [21/Oct/2021:23:48:42 -0300] "GET /ZenSpaceOnApp/rest/agendamentos/5 HTTP/1.1" 204 -
+127.0.0.1 - - [21/Oct/2021:23:55:49 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:23:55:50 -0300] "GET /ZenSpaceOnApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:23:56:11 -0300] "GET /ZenSpaceOnApp/rest/consultas HTTP/1.1" 200 1548
+0:0:0:0:0:0:0:1 - - [21/Oct/2021:23:59:00 -0300] "GET /ZenSpaceOnApp/rest/consultas/3 HTTP/1.1" 200 96
